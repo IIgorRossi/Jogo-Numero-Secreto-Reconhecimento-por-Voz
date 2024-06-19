@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+:root{
+    --font-family:"Tiny5", sans-serif;
+    --bg-color: #78ABA8;
+    --primary-color: #FCDC94;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 6em;
+}
+
+h3{
+font-size: 3em;
+margin-top: 20px;
+}
+
+h2{
+    font-size: 5em;
+}
+
+.mensagem {
+ font-size: 2em;
+ margin-top: 40px;
+}
+
+.box {
+    color:white ;
+    display: inline-block;
+    font-size: 4em;
+    margin: 20px;
+}
+
+.btn-novamente{
+    font-size: medium;
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: var(--bg-color);
+    font-family: var(--font-family);
+}
